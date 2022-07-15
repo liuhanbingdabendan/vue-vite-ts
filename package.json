@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "cross-env vite --mode development",
+    "start:test": "cross-env vite --mode test",
+    "start:pro": "cross-env vite --mode prod",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "start:pro": "cross-env vite --mode production",
-    "build:dev": "cross-env vite build --mode development",
-    "build:pro": "cross-env vite build --mode production"
+    "build:dev": "cross-env vite build --mode development"
   },
   "dependencies": {
     "axios": "^0.27.2",
